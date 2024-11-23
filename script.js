@@ -4,4 +4,5 @@ function loadSection(sectionName, containerId) {
     .then((html) => (document.getElementById(containerId).innerHTML = html));
 }
 
-loadSection("./sections/header/header.html", "header-container");
+loadSection("./sections/header/header.html", "page__header");
+loadSection("./sections/home-section/home-section.html", "page__main");
