@@ -7,3 +7,4 @@ function loadSection(sectionName, containerId) {
 loadSection("./sections/header/header.html", "page__header");
 loadSection("./sections/home-section/home-section.html", "page__main");
 loadSection("./sections/skills-section/skills-section.html", "page__main");
+loadSection("./sections/about-us-section/about-us-section.html", "page__main");
