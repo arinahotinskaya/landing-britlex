@@ -9,3 +9,4 @@ loadSection("./sections/home-section/home-section.html", "page__main");
 loadSection("./sections/skills-section/skills-section.html", "page__main");
 loadSection("./sections/about-us-section/about-us-section.html", "page__main");
 loadSection("./sections/pricing-section/pricing-section.html", "page__main");
+loadSection("./sections/contact-us-section/contact-us-section.html", "page__main");
