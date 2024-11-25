@@ -1,32 +1,61 @@
+.about-us {
+    display: grid;
+}
+
+.about-us__title {
+    font-family: var(--semi-bold);
+    color: var(--black);
+}
+
+.about-us__description {
+    font-family: var(--regular);
+    color: #8F95A5;
+}
+
+.about-us__features {
+    display: flex;
+    text-align: center;
+}
+
+.about-us__feature-title {
+    font-family: var(--semi-bold);
+    color: #2A3246;
+}
+
+.about-us__feature-descr {
+    margin: 0;
+    font-family: var(--regular);
+    color: #8F95A5;
+}
+
+.about-us__image {
+    width: 100%;
+    height: auto;
+}
+
+
 @media (min-width: 993px) {
     .about-us {
         margin-bottom: 190px;
         padding: 0 130px;
-        display: grid;
         grid-template-columns: 2fr 1fr;
         grid-template-rows: repeat(3, auto);
     }
 
     .about-us__title {
         margin: 0 0 45px;
-        font-family: var(--semi-bold);
-        color: var(--black);
         font-size: 48px;
     }
 
     .about-us__description {
         margin: 0 0 50px;
-        font-family: var(--regular);
-        color: #8F95A5;
         font-size: 20px;
         max-width: 640px;
     }
 
     .about-us__features {
         margin-bottom: 35px;
-        display: flex;
         justify-content: left;
-        text-align: center;
     }
 
     .about-us__feature:not(:last-child) {
@@ -35,15 +64,10 @@
 
     .about-us__feature-title {
         margin: 0 0 20px;
-        font-family: var(--semi-bold);
-        color: #2A3246;
         font-size: 48px;
     }
 
     .about-us__feature-descr {
-        margin: 0;
-        font-family: var(--regular);
-        color: #8F95A5;
         font-size: 20px;
     }
 
@@ -53,11 +77,6 @@
         max-width: 500px;
         align-self: flex-end;
     }
-
-    .about-us__image {
-        width: 100%;
-        height: auto;
-    }
 }
 
 
@@ -65,30 +84,23 @@
     .about-us {
         margin-bottom: 125px;
         padding: 0 30px;
-        display: grid;
         grid-template-columns: repeat(2, auto);
         grid-template-rows: repeat(3, auto);
     }
 
     .about-us__title {
         margin: 0 0 40px;
-        font-family: var(--semi-bold);
-        color: var(--black);
         font-size: 36px;
     }
 
     .about-us__description {
         margin: 0 0 45px;
-        font-family: var(--regular);
-        color: #8F95A5;
         font-size: 16px;
         max-width: 530px;
     }
 
     .about-us__features {
-        display: flex;
         justify-content: left;
-        text-align: center;
         margin-bottom: 23px;
     }
 
@@ -98,15 +110,10 @@
 
     .about-us__feature-title {
         margin: 0 0 15px;
-        font-family: var(--semi-bold);
-        color: #2A3246;
         font-size: 30px;
     }
 
     .about-us__feature-descr {
-        margin: 0;
-        font-family: var(--regular);
-        color: #8F95A5;
         font-size: 16px;
     }
 
@@ -116,11 +123,6 @@
         max-width: 336px;
         align-self: flex-end;
     }
-
-    .about-us__image {
-        width: 100%;
-        height: auto;
-    }
 }
 
 
@@ -128,30 +130,23 @@
     .about-us {
         margin-bottom: 90px;
         padding: 0 35px;
-        display: grid;
         grid-template-columns: repeat(2, auto);
         grid-template-rows: repeat(3, auto);
     }
 
     .about-us__title {
         margin: 0 0 25px;
-        font-family: var(--semi-bold);
-        color: var(--black);
         font-size: 30px;
     }
 
     .about-us__description {
         margin: 0 0 40px;
-        font-family: var(--regular);
-        color: #8F95A5;
         font-size: 14px;
         max-width: 325px;
     }
 
     .about-us__features {
-        display: flex;
         justify-content: left;
-        text-align: center;
         margin-bottom: 21px;
     }
 
@@ -161,15 +156,10 @@
 
     .about-us__feature-title {
         margin: 0 0 20px;
-        font-family: var(--semi-bold);
-        color: #2A3246;
         font-size: 22px;
     }
 
     .about-us__feature-descr {
-        margin: 0;
-        font-family: var(--regular);
-        color: #8F95A5;
         font-size: 13px;
     }
 
@@ -179,11 +169,6 @@
         max-width: 295px;
         align-self: flex-end;
     }
-
-    .about-us__image {
-        width: 100%;
-        height: auto;
-    }
 }
 
 
@@ -191,44 +176,32 @@
     .about-us {
         margin-bottom: 150px;
         padding: 0 35px;
-        display: grid;
         grid-template-rows: repeat(4, auto);
         text-align: center;
     }
 
     .about-us__title {
         margin: 0 0 50px;
-        font-family: var(--semi-bold);
-        color: var(--black);
         font-size: 30px;
         grid-row: 1;
     }
 
     .about-us__description {
         margin: 0 0 50px;
-        font-family: var(--regular);
-        color: #8F95A5;
         font-size: 14px;
         max-width: 510px;
     }
 
     .about-us__features {
-        display: flex;
         justify-content: space-around;
-        text-align: center;
     }
 
     .about-us__feature-title {
         margin: 0 0 15px;
-        font-family: var(--semi-bold);
-        color: #2A3246;
         font-size: 24px;
     }
 
     .about-us__feature-descr {
-        margin: 0;
-        font-family: var(--regular);
-        color: #8F95A5;
         font-size: 14px;
     }
 
@@ -238,43 +211,31 @@
         justify-self: center;
         margin-bottom: 25px;
     }
-
-    .about-us__image {
-        width: 100%;
-        height: auto;
-    }
 }
 
 
 @media (max-width: 320px) {
     .about-us {
-        margin-bottom: 84px;
+        margin-bottom: 140px;
         padding: 0 15px;
-        display: grid;
         grid-template-rows: repeat(4, auto);
         text-align: center;
     }
 
     .about-us__title {
         margin: 0 0 55px;
-        font-family: var(--semi-bold);
-        color: var(--black);
         font-size: 24px;
         grid-row: 1;
     }
 
     .about-us__description {
         margin: 0 0 40px;
-        font-family: var(--regular);
-        color: #8F95A5;
         font-size: 13px;
         max-width: 320px;
     }
 
     .about-us__features {
-        display: flex;
         flex-direction: column;
-        text-align: center;
     }
 
     .about-us__feature:not(:last-child) {
@@ -283,15 +244,10 @@
 
     .about-us__feature-title {
         margin: 0 0 15px;
-        font-family: var(--semi-bold);
-        color: #2A3246;
         font-size: 24px;
     }
 
     .about-us__feature-descr {
-        margin: 0;
-        font-family: var(--regular);
-        color: #8F95A5;
         font-size: 15px;
     }
 
@@ -300,10 +256,5 @@
         max-width: 283px;
         justify-self: center;
         margin-bottom: 25px;
-    }
-
-    .about-us__image {
-        width: 100%;
-        height: auto;
     }
 }
