@@ -1,0 +1,35 @@
+@font-face {
+    font-family: "Poppins Regular";
+    src: url(./fonts/Poppins-Regular.ttf) format("truetype");
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Poppins Regular";
+    src: url(./fonts/Poppins-Medium.ttf) format("truetype");
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Popping SemiBold";
+    src: url(./fonts/Poppins-SemiBold.ttf) format("truetype");
+    font-weight: 600;
+    font-style: normal;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+:root {
+    /* color */
+    --white: #FFFFFF;
+    --black: #000000;
+
+    /* fonts */
+    --regular: "Poppins Regular", sans-serif;
+    --medium: "Poppins Medium", sans-serif;
+    --semi-bold: "Poppins SemiBold", sans-serif;
+}
