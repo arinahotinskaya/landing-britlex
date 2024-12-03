@@ -1,19 +1,19 @@
 @font-face {
-    font-family: "Poppins Regular";
+    font-family: "Poppins";
     src: url(./fonts/Poppins-Regular.ttf) format("truetype");
     font-weight: 400;
     font-style: normal;
 }
 
 @font-face {
-    font-family: "Poppins Regular";
+    font-family: "Poppins";
     src: url(./fonts/Poppins-Medium.ttf) format("truetype");
     font-weight: 500;
     font-style: normal;
 }
 
 @font-face {
-    font-family: "Popping SemiBold";
+    font-family: "Poppins";
     src: url(./fonts/Poppins-SemiBold.ttf) format("truetype");
     font-weight: 600;
     font-style: normal;
@@ -21,15 +21,14 @@
 
 html {
     scroll-behavior: smooth;
+    box-sizing: border-box;
 }
 
 :root {
     /* color */
-    --white: #FFFFFF;
-    --black: #000000;
+    --white-color: #FFFFFF;
+    --black-color: #000000;
 
     /* fonts */
-    --regular: "Poppins Regular", sans-serif;
-    --medium: "Poppins Medium", sans-serif;
-    --semi-bold: "Poppins SemiBold", sans-serif;
+    --font-family: "Poppins", sans-serif;
 }
