@@ -4,19 +4,16 @@
 
 .hero__title {
     display: inline-block;
-    font-family: var(--font-family);
     font-weight: 600;
     color: var(--black-color);
 }
 
 .hero__description {
     color: #8F95A5;
-    font-family: var(--font-family);
 }
 
 .hero__button {
     background-color: #263238;
-    font-family: var(--font-family);
     color: var(--white-color);
     border: none;
     cursor: pointer;
