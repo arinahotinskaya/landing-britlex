@@ -9,11 +9,11 @@
 }
 
 .hero__description {
-    color: #8F95A5;
+    color: var(--description-color)
 }
 
 .hero__button {
-    background-color: #263238;
+    background-color: var(--btn-bg-color);
     color: var(--white-color);
     border: none;
     cursor: pointer;

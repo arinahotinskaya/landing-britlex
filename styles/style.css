@@ -23,19 +23,17 @@ html {
     scroll-behavior: smooth;
 }
 
-body {
-    font-family: var(--font-family);
-}
-
 * {
+    font-family: "Poppins", sans-serif;
     box-sizing: border-box;
 }
 
 :root {
-    /* color */
+    /* colors */
     --white-color: #FFFFFF;
     --black-color: #000000;
-
-    /* fonts */
-    --font-family: "Poppins", sans-serif;
+    --description-color: #8F95A5;
+    --btn-bg-color: #263238;
+    --logo-color: #939393;
+    --burger-btn-bg-color: #39515E;
 }
