@@ -1,0 +1,260 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__logo {
+    font-weight: 400;
+    color: var(--black-color);
+}
+
+.header__logo-span {
+    color: var(--logo-color);
+}
+
+.header__link {
+    cursor: pointer;
+    text-decoration: none;
+    font-weight: 500;
+    color: var(--black-color);
+}
+
+.header__button {
+    cursor: pointer;
+    background-color: var(--white-color);
+    font-weight: 400;
+    color: var(--black-color);
+    border: 2px solid var(--black-color);
+    border-radius: 5px;
+}
+
+.header__burger {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 100;
+}
+
+.header__burger-button {
+    position: relative;
+    background-color: var(--burger-btn-bg-color);
+    border-radius: 1px;
+    transition: 0.3s;
+}
+
+
+
+@media (min-width: 993px) {
+    .header {
+        padding: 55px 130px 51px;
+    }
+
+    .header__logo {
+        font-size: 36px;
+    }
+
+    .header__link {
+        margin-right: 20px;
+        font-size: 20px;
+    }
+
+    .header__link:nth-child(3n) {
+        margin-right: 40px;
+    }
+
+    .header__link:last-child {
+        margin-right: 0;
+    }
+
+    .header__button {
+        padding: 17px 57px;
+        font-size: 24px;
+    }
+
+    .header__burger {
+        display: none;
+    }
+}
+
+
+@media (min-width: 768px) and (max-width: 992px) {
+    .header {
+        padding: 25px 31px 68px;
+    }
+
+    .header__logo {
+        font-size: 30px;
+    }
+
+    .header__link {
+        margin-right: 15px;
+        font-size: 16px;
+    }
+
+    .header__link:nth-child(3n) {
+        margin-right: 30px;
+    }
+
+    .header__link:last-child {
+        margin-right: 0;
+    }
+
+    .header__button {
+        padding: 12px 40px;
+        font-size: 18px;
+    }
+
+    .header__burger {
+        display: none;
+    }
+}
+
+
+@media (min-width: 576px) and (max-width: 767px) {
+    .header {
+        padding: 40px 40px 50px;
+    }
+
+    .header__logo {
+        font-size: 30px;
+    }
+
+    .header__link, .header__button {
+        display: none;
+    }
+
+    .header__burger {
+        align-self: flex-start;
+    }
+
+    .header__burger-button {
+        width: 30px;
+        height: 3px;
+    }
+
+    .header__burger-button::before{
+        content: '';
+        position: absolute;
+        width: 30px;
+        height: 3px;
+        background-color: var(--burger-btn-bg-color);
+        transition: 0.3s;
+        border-radius: 1px;
+    }
+
+    .header__burger-button::after {
+        content: '';
+        position: absolute;
+        width: 21px;
+        height: 3px;
+        background-color: var(--burger-btn-bg-color);
+        transition: 0.3s;
+        border-radius: 1px;
+    }
+
+    .header__burger-button::before {
+        top: 6px;
+    }
+
+    .header__burger-button::after {
+        top: 12px;
+    }
+}
+
+
+@media (min-width: 321px) and (max-width: 575px) {
+    .header {
+        padding: 39px 50px 11px 32px;
+    }
+
+    .header__logo {
+        font-size: 30px;
+    }
+
+    .header__link, .header__button {
+        display: none;
+    }
+
+    .header__burger-button {
+        width: 42px;
+        height: 4px;
+    }
+
+    .header__burger-button::before{
+        content: '';
+        position: absolute;
+        width: 42px;
+        height: 4px;
+        background-color: var(--burger-btn-bg-color);
+        transition: 0.3s;
+        border-radius: 1px;
+    }
+
+    .header__burger-button::after {
+        content: '';
+        position: absolute;
+        width: 30px;
+        height: 4px;
+        background-color: var(--burger-btn-bg-color);
+        transition: 0.3s;
+        border-radius: 1px;
+    }
+
+    .header__burger-button::before {
+        top: -10px;
+    }
+
+    .header__burger-button::after {
+        top: 10px;
+    }
+}
+
+
+@media (max-width: 320px) {
+    .header {
+        padding: 36px 15px 29px;
+    }
+
+    .header__logo {
+        font-size: 24px;
+    }
+
+    .header__link, .header__button {
+        display: none;
+    }
+
+    .header__burger-button {
+        width: 34px;
+        height: 3px;
+    }
+
+    .header__burger-button::before{
+        content: '';
+        position: absolute;
+        width: 34px;
+        height: 3px;
+        background-color: var(--burger-btn-bg-color);
+        transition: 0.3s;
+        border-radius: 1px;
+    }
+
+    .header__burger-button::after {
+        content: '';
+        position: absolute;
+        width: 24px;
+        height: 3px;
+        background-color: var(--burger-btn-bg-color);
+        transition: 0.3s;
+        border-radius: 1px;
+    }
+
+    .header__burger-button::before {
+        top: -7px;
+    }
+
+    .header__burger-button::after {
+        top: 7px;
+    }
+}
