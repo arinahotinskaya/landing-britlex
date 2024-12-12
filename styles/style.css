@@ -38,7 +38,8 @@ body {
     --white-color: #FFFFFF;
     --black-color: #000000;
     --description-color: #8F95A5;
-    --btn-bg-color: #263238;
+    --accent-color: #263238;
     --logo-color: #939393;
     --burger-btn-bg-color: #39515E;
+    --skills-block-bg: #F5F5F5;
 }

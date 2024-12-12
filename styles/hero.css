@@ -13,7 +13,7 @@
 }
 
 .hero__button {
-    background-color: var(--btn-bg-color);
+    background-color: var(--accent-color);
     color: var(--white-color);
     border: none;
     cursor: pointer;
