@@ -11,7 +11,6 @@
 .skills__offer {
     display: grid;
     background-color: var(--skills-block-bg);
-    border: none;
     border-radius: 10px;
 }
 
@@ -37,7 +36,7 @@
     border: none;
     border-radius: 5px;
     align-self: flex-end;
-} 
+}
 
 
 @media (min-width: 993px) {
@@ -50,7 +49,7 @@
         margin: 0 0 115px;
         font-size: 48px;
     }
-    
+
     .skills__offers {
         grid-template: repeat(2, auto) / repeat(3, 1fr);
         gap: 20px 18px;
@@ -65,8 +64,9 @@
         grid-template-rows: 390px repeat(2, auto);
     }
 
-    .skills__offer--writing, .skills__offer--reading {
-        grid-template-rows: 293px repeat(2, auto); 
+    .skills__offer--writing,
+    .skills__offer--reading {
+        grid-template-rows: 293px repeat(2, auto);
     }
 
     .skills__offer--listening {
@@ -82,9 +82,9 @@
 
     .skills__offer-image--writing {
         max-width: 293px;
-        align-self: center; 
+        align-self: center;
     }
-    
+
     .skills__offer-image--reading {
         max-width: 371px;
         align-self: center;
@@ -100,17 +100,17 @@
     .skills__offer-info--speaking {
         margin-top: 30px;
     }
-    
+
     .skills__offer-title {
         margin: 0 0 20px;
         font-size: 30px;
     }
-    
+
     .skills__offer-description {
         margin: 0 0 35px;
         font-size: 16px;
     }
-    
+
     .skills__offer-button {
         margin-bottom: 45px;
         padding: 15px 51px;
@@ -137,7 +137,7 @@
         margin: 0 0 80px;
         font-size: 36px;
     }
-    
+
     .skills__offers {
         grid-template: repeat(2, auto) / repeat(3, 1fr);
         gap: 13px;
@@ -146,14 +146,15 @@
     .skills__offer {
         padding: 0 20px;
     }
-    
+
     .skills__offer--speaking {
         grid-row: span 2;
         grid-template-rows: 260px repeat(2, auto);
     }
 
-    .skills__offer--writing, .skills__offer--reading {
-        grid-template-rows: 205px repeat(2, auto); 
+    .skills__offer--writing,
+    .skills__offer--reading {
+        grid-template-rows: 205px repeat(2, auto);
     }
 
     .skills__offer--listening {
@@ -169,10 +170,10 @@
 
     .skills__offer-image--writing {
         max-width: 205px;
-        align-self: center; 
+        align-self: center;
         justify-self: flex-end;
     }
-    
+
     .skills__offer-image--reading {
         max-width: 243px;
         align-self: center;
@@ -189,17 +190,17 @@
     .skills__offer-info--speaking {
         margin-top: 30px;
     }
-    
+
     .skills__offer-title {
         margin: 0 0 20px;
         font-size: 22px;
     }
-    
+
     .skills__offer-description {
         margin: 0 0 25px;
         font-size: 14px;
     }
-    
+
     .skills__offer-button {
         margin-bottom: 30px;
         padding: 16px 42px;
@@ -223,7 +224,7 @@
         margin: 0 0 65px;
         font-size: 30px;
     }
-    
+
     .skills__offers {
         grid-template: repeat(2, auto) / repeat(3, 1fr);
         gap: 10px;
@@ -238,8 +239,9 @@
         grid-template-rows: 214px repeat(2, auto);
     }
 
-    .skills__offer--writing, .skills__offer--reading {
-        grid-template-rows: 200px repeat(2, auto); 
+    .skills__offer--writing,
+    .skills__offer--reading {
+        grid-template-rows: 200px repeat(2, auto);
     }
 
     .skills__offer--listening {
@@ -255,9 +257,9 @@
 
     .skills__offer-image--writing {
         max-width: 200px;
-        align-self: center; 
+        align-self: center;
     }
-    
+
     .skills__offer-image--reading {
         max-width: 216px;
         align-self: center;
@@ -269,17 +271,17 @@
         grid-row: 1 / span 2;
         align-self: center;
     }
-    
+
     .skills__offer-title {
         margin: 0 0 15px;
         font-size: 20px;
     }
-    
+
     .skills__offer-description {
         margin: 0 0 20px;
         font-size: 13px;
     }
-    
+
     .skills__offer-button {
         margin-bottom: 20px;
         padding: 14px 43px;
@@ -321,7 +323,7 @@
     .skills__offer-image--writing {
         max-width: 182px;
     }
-    
+
     .skills__offer-image--reading {
         max-width: 198px;
     }
@@ -329,23 +331,23 @@
     .skills__offer-image--listening {
         max-width: 206px;
     }
-    
+
     .skills__offer-title {
         margin: 15px 0;
         font-size: 18px;
     }
-    
+
     .skills__offer-description {
-        margin: 0;
+        margin: 0 0 30px;
         font-size: 12px;
     }
-    
+
     .skills__offer-button {
         padding: 14px 54px;
         font-size: 14px;
         max-width: 200px;
         justify-self: flex-start;
-    }    
+    }
 }
 
 
@@ -382,7 +384,7 @@
     .skills__offer-image--writing {
         max-width: 204px;
     }
-    
+
     .skills__offer-image--reading {
         max-width: 236px;
     }
@@ -394,20 +396,20 @@
     .skills__offer-info {
         align-self: flex-end;
     }
-    
+
     .skills__offer-title {
         margin: 0 0 15px;
         font-size: 18px;
     }
-    
+
     .skills__offer-description {
         margin: 0 0 30px;
         font-size: 13px;
     }
-    
+
     .skills__offer-button {
         padding: 14px 42px;
         font-size: 14px;
         max-width: 178px;
-    }    
+    }
 }
