@@ -44,3 +44,13 @@ body {
     --skills-block-bg: #F5F5F5;
     --feature-title-color: #2A3246;
 }
+
+.title {
+    font-weight: 600;
+    color: var(--black-color);
+}
+
+.description {
+    font-weight: 400;
+    color: var(--description-color);
+}

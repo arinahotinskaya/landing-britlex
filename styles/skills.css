@@ -1,6 +1,4 @@
 .skills__title {
-    font-weight: 600;
-    color: var(--black-color);
     text-align: center;
 }
 
@@ -14,19 +12,9 @@
     border-radius: 10px;
 }
 
-.skills__offer-image {
-    width: 100%;
-    height: auto;
-}
-
 .skills__offer-title {
     font-weight: 600;
     color: var(--accent-color);
-}
-
-.skills__offer-description {
-    font-weight: 400;
-    color: var(--description-color);
 }
 
 .skills__offer-button {

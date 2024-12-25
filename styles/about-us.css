@@ -2,16 +2,6 @@
     display: grid;
 }
 
-.about-us__title {
-    font-weight: 600;
-    color: var(--black-color);
-}
-
-.about-us__description {
-    font-weight: 400;
-    color: var(--description-color);
-}
-
 .about-us__features {
     display: flex;
     text-align: center;
