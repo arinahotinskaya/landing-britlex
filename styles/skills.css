@@ -1,6 +1,4 @@
 .skills__title {
-    font-weight: 600;
-    color: var(--black-color);
     text-align: center;
 }
 
@@ -22,11 +20,6 @@
 .skills__offer-title {
     font-weight: 600;
     color: var(--accent-color);
-}
-
-.skills__offer-description {
-    font-weight: 400;
-    color: var(--description-color);
 }
 
 .skills__offer-button {
