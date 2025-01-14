@@ -50,7 +50,7 @@ body {
     color: var(--black-color);
 }
 
-.description {
+.text {
     font-weight: 400;
     color: var(--description-color);
 }
