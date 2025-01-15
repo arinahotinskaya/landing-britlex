@@ -17,11 +17,6 @@
     margin: auto;
 }
 
-.hero__image {
-    width: 100%;
-    height: auto;
-}
-
 
 @media (min-width: 993px) {
     .hero {
