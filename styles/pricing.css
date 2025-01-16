@@ -10,7 +10,9 @@
     display: grid;
 }
 
-.pricing__item-image--test, .pricing__item-image--lesson, .pricing__item-image--webinar {
+.pricing__item-image--test, 
+.pricing__item-image--lesson, 
+.pricing__item-image--webinar {
     align-self: flex-end;
     justify-self: center;
 }

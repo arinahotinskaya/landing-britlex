@@ -121,7 +121,8 @@
         font-size: 30px;
     }
 
-    .header__link, .header__button {
+    .header__link, 
+    .header__button {
         display: none;
     }
 
@@ -173,7 +174,8 @@
         font-size: 30px;
     }
 
-    .header__link, .header__button {
+    .header__link, 
+    .header__button {
         display: none;
     }
 
@@ -221,7 +223,8 @@
         font-size: 24px;
     }
 
-    .header__link, .header__button {
+    .header__link, 
+    .header__button {
         display: none;
     }
 
