@@ -43,6 +43,8 @@ body {
     --burger-btn-bg-color: #39515E;
     --skills-block-bg: #F5F5F5;
     --feature-title-color: #2A3246;
+    --price-cost: #546269;
+    --price-cost-bg: #EEEEEE;
 }
 
 .title {
@@ -53,4 +55,9 @@ body {
 .text {
     font-weight: 400;
     color: var(--description-color);
+}
+
+.image {
+    width: 100%;
+    height: auto;
 }
