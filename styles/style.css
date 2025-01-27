@@ -45,6 +45,7 @@ body {
     --feature-title-color: #2A3246;
     --price-cost: #546269;
     --price-cost-bg: #EEEEEE;
+    --footer-border-color: #C4C4C4; 
 }
 
 .title {
