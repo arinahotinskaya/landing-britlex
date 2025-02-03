@@ -25,7 +25,6 @@
 }
 
 
-
 @media (min-width: 993px) {
     .contacts {
         padding: 0 112px 0 124px;
@@ -51,6 +50,7 @@
         margin: 35px 0;
         font-size: 20px;
         align-self: center;
+        line-height: 30px;
     }
 
     .contacts__form {
@@ -99,6 +99,7 @@
         margin: 25px 0;
         font-size: 16px;
         align-self: center;
+        line-height: 24px;
     }
 
     .contacts__form {
@@ -148,6 +149,7 @@
         margin: 20px 0;
         font-size: 14px;
         align-self: center;
+        line-height: 21px;
     }
 
     .contacts__form {
@@ -195,6 +197,7 @@
     .contacts__description {
         margin: 0 0 60px;
         font-size: 16px;
+        line-height: 24px;
     }
 
     .contacts__form {
@@ -242,6 +245,7 @@
     .contacts__description {
         margin: 0 0 30px;
         font-size: 14px;
+        line-height: 21px;
     }
 
     .contacts__form {

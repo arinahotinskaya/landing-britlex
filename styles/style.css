@@ -51,11 +51,13 @@ body {
 .title {
     font-weight: 600;
     color: var(--black-color);
+    letter-spacing: 0.015em;
 }
 
 .text {
     font-weight: 400;
     color: var(--description-color);
+    letter-spacing: 0.015em;
 }
 
 .image {

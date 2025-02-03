@@ -20,20 +20,31 @@
 .pricing__item-title {
     font-weight: 600;
     color: var(--accent-color);
+    letter-spacing: 0.015em;
+}
+
+.pricing__item-price {
+    display: inline-flex;
+    align-items: center;
+    background-color: var(--price-cost-bg);
+    border-radius: 5px;
+    width: fit-content;
 }
 
 .pricing__item-cost {
     margin: 0;
-    padding: 5px 20px;
+    padding: 5px 8px 5px 20px;
     display: inline-block;
-    background-color: var(--price-cost-bg);
     font-weight: 400;
-    color: var(--price-cost);
-    border-radius: 5px;
+    color: var(--accent-color);
 }
 
-.pricing__item-cost--span {
-    color: var(--accent-color);
+.pricing__item-frequency {
+    margin: 0;
+    padding: 5px 20px 5px 0;
+    display: inline-block;
+    font-weight: 400;
+    color: var(--price-cost);
 }
 
 
@@ -77,14 +88,20 @@
     .pricing__item-description {
         margin: 0 0 35px;
         font-size: 20px;
+        line-height: 30px;
+    }
+
+    .pricing__item-container {
+        display: flex;
+        justify-content: start;
     }
 
     .pricing__item-cost {
-        font-size: 18px; 
+        font-size: 30px; 
     }
 
-    .pricing__item-cost--span {
-        font-size: 30px;
+    .pricing__item-frequency {
+        font-size: 18px;
     }
 }
 
@@ -129,13 +146,19 @@
     .pricing__item-description {
         margin: 0 0 30px;
         font-size: 16px;
+        line-height: 24px;
     }
 
-    .pricing__item-cost {
+    .pricing__item-container {
+        display: flex;
+        justify-content: start;
+    }
+
+    .pricing__item-frequency {
         font-size: 16px; 
     }
 
-    .pricing__item-cost--span {
+    .pricing__item-cost {
         font-size: 24px;
     }
 }
@@ -181,13 +204,19 @@
     .pricing__item-description {
         margin: 0 0 25px;
         font-size: 14px;
+        line-height: 21px;
     }
 
-    .pricing__item-cost {
+    .pricing__item-container {
+        display: flex;
+        justify-content: start;
+    }
+
+    .pricing__item-frequency {
         font-size: 16px; 
     }
 
-    .pricing__item-cost--span {
+    .pricing__item-cost {
         font-size: 22px;
     }
 }
@@ -236,13 +265,19 @@
     .pricing__item-description {
         margin: 0 0 31px;
         font-size: 14px;
+        line-height: 21px;
     }
 
-    .pricing__item-cost {
+    .pricing__item-container {
+        display: flex;
+        justify-content: center;
+    }
+
+    .pricing__item-frequency {
         font-size: 16px; 
     }
 
-    .pricing__item-cost--span {
+    .pricing__item-cost {
         font-size: 22px;
     }
 }
@@ -292,13 +327,19 @@
     .pricing__item-description {
         margin: 0 0 31px;
         font-size: 13px;
+        line-height: 20px;
     }
 
-    .pricing__item-cost {
+    .pricing__item-container {
+        display: flex;
+        justify-content: center;
+    }
+
+    .pricing__item-frequency {
         font-size: 14px; 
     }
 
-    .pricing__item-cost--span {
+    .pricing__item-cost {
         font-size: 18px;
     }
 }
